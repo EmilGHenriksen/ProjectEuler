@@ -1,26 +1,25 @@
 ﻿using System;
-namespace Project_Euler
-{
-    public class Problem1 : IProblem
-    {
-        public int Solution
-        {
-            get
-            {
-                Console.WriteLine("Solution to Project Euler Problem 1: \n");
+using Project_Euler;
 
-                int res = 0;
-                for (int i = 0; i < 1000; i++)
+public class Problem1 : IProblemInt
+{
+    public int Solution()
+    {
+        {
+            Console.WriteLine("Solution to Project Euler Problem 1: ");
+
+            int res = 0;
+            for (int i = 0; i < 1000; i++)
+            {
+                if (i % 3 == 0 || i % 5 == 0)
                 {
-                    if (i % 3 == 0 || i % 5 == 0)
-                    {
-                        res += i;
-                    }
+                    res += i;
                 }
-                return res;
             }
+            return res;
         }
     }
 }
+
 
 
