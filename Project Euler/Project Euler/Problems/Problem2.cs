@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Project_Euler;
 
-public class Problem2 : IProblemInt
+public class Problem2 : IProblem<int>
 {
     public int Solution()
     {

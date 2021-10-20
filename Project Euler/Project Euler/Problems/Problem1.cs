@@ -1,7 +1,7 @@
 ﻿using System;
 using Project_Euler;
 
-public class Problem1 : IProblemInt
+public class Problem1 : IProblem<int>
 {
     public int Solution()
     {

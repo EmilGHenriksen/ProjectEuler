@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Project_Euler;
 
-class Problem6 : IProblemInt
+class Problem6 : IProblem<int>
 {
     const int NUM = 100;
     public int Solution()

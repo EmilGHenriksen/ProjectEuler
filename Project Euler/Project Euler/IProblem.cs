@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Project_Euler
 {
-    interface IProblemLong
+    interface IProblem<T>
     {
-        long Solution();
+        T Solution();
     }
 }

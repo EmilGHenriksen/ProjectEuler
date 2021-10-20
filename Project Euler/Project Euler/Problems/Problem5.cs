@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Project_Euler;
 
-class Problem5 : IProblemLong
+class Problem5 : IProblem<long>
 {
     const int SMALLESTDIV = 2520;
     public long Solution()

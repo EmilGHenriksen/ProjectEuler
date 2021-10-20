@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Project_Euler;
 
-public class Problem3 : IProblemLong
+public class Problem3 : IProblem<long>
 {
     const long NUM = 600851475143;
     public long Solution()
